@@ -1,4 +1,5 @@
 <script setup lang="ts">
+import { useLang } from '~/composables/useLang'
 import { ILink } from '~/types'
 
 const { t } = useLang()
